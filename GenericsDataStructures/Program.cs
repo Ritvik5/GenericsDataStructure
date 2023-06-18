@@ -33,9 +33,16 @@
             //obj.Enqueue(70);
             //obj.Display();
 
-            BuiltInLinkedList obj = new BuiltInLinkedList();
+            //--CRUD Operations on Linked List
 
-            obj.CrudOperations();
+            //BuiltInLinkedList obj = new BuiltInLinkedList();
+
+            //obj.CrudOperations();
+
+            //--CRUD Operation on Stack
+
+            BuiltInStack obj = new BuiltInStack();
+            obj.CrudOperation1();
         }
     }
 }
