@@ -18,11 +18,20 @@
 
             //-- Generics Stack
 
-            GenericsStack<int> stack = new GenericsStack<int>();
-            stack.Push(70);
-            stack.Push(30);
-            stack.Push(56);
-            stack.Display();
+            //GenericsStack<int> stack = new GenericsStack<int>();
+            //stack.Push(70);
+            //stack.Push(30);
+            //stack.Push(56);
+            //stack.Display();
+
+            //--Generics Queue
+
+            GenericsQueue<int> obj = new GenericsQueue<int>();
+
+            obj.Enqueue(56);
+            obj.Enqueue(30);
+            obj.Enqueue(70);
+            obj.Display();
         }
     }
 }
