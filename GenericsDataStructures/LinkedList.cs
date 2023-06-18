@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace GenericsDataStructures
 {
-    public class LinkedList<T>
+    public class GenericsLinkedList<T>
     {
         private Node<T> head;
 

@@ -8,7 +8,7 @@
 
             //-- Generics Linked List
 
-            //LinkedList<int> list = new LinkedList<int>();
+            //GenericsLinkedList<int> list = new GenericsLinkedList<int>();
 
             //list.Add(56);
             //list.Add(30);
@@ -26,12 +26,16 @@
 
             //--Generics Queue
 
-            GenericsQueue<int> obj = new GenericsQueue<int>();
+            //GenericsQueue<int> obj = new GenericsQueue<int>();
 
-            obj.Enqueue(56);
-            obj.Enqueue(30);
-            obj.Enqueue(70);
-            obj.Display();
+            //obj.Enqueue(56);
+            //obj.Enqueue(30);
+            //obj.Enqueue(70);
+            //obj.Display();
+
+            BuiltInLinkedList obj = new BuiltInLinkedList();
+
+            obj.CrudOperations();
         }
     }
 }
